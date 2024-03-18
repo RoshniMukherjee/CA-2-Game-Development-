@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    
+    <h1>Welcome to Hangman!</h1>
+    
+    <div id="startForm">
+        <h2>Please enter your details to start the game:</h2>
+        <form onsubmit="startGame(event)">
+            <label for="playerName">Name:</label>
+            <input type="text" id="playerName" required><br>
+            <label for="playerNickname">Nickname:</label>
+            <input type="text" id="playerNickname" required><br>
+    <button class="start-button" onclick="startGame()">Start Game</button>
+</form>
+</div>
+<div class="meme-container">
+    <!-- First meme -->
+    <img src="https://media0.giphy.com/media/9AaNbSShRHQQfosEOm/giphy.gif?cid=6c09b952qmar3snwipxyvocir28t05u7xr8c6etnctj1us2j&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Funny meme 1">
+    
+    <!-- Second meme -->
+    <img src="https://media1.giphy.com/media/QoVXpbaqrlvtNk0W1v/giphy.gif?cid=82a1493b1rtizyaaxw1h15tlidrvbxpb94aq63hotkmkzro5&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Funny meme 2">
+</div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
